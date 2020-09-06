@@ -12,11 +12,7 @@ document.querySelector("#numero").addEventListener("focusout", recebedorDados);
 function recebedorDados(){
     //NAO PODE SER parseInt, POIS DESSA FORMA O VALOR SERA CONVERTIDO CASO COMESSE COM '0' 
     var valorRecebido = document.getElementById('numero').value;
-
-    //RETIRANDO "-" DO CEP CASO TENHA
     var verificarCep = valorRecebido.replace("-", "");
-
-    //ATRIBUINDO O VALOR VERIFICADO DO CEP, AO PROPRIO CEP
     cepRecebido = verificarCep
     
     console.log("Quantidade: "+valorRecebido);
