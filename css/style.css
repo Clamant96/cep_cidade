@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #bbdefb;
+
+}
+
+/*CONTAINER*/
+
+#container{
+    padding: 5%;
+    width: 90%;
+    max-height: auto;
+    background-color: antiquewhite;
+
+    font-family: 'Montserrat', sans-serif;
+
+    color: #262626;
+
+}
+
+/*=========*/
+
+/*INPUTS*/
+#container #dados{
+    /*display: inline-block;*/
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    background-color: aqua;
+
+}
+
+/*INPUT P*/
+#container #dados p{
+    /*display: inline-block;*/
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    border: none;
+    background-color: greenyellow;
+
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+/*INPUT CEP*/
+#container #dados #numero{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    border: none;
+    background-color: blue;
+
+    font-weight: 700;
+    font-size: 1em;
+
+}
+
+/*INPUT BOTAO*/
+#container #dados .adicionar{
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: brown;
+
+    font-weight: 900;
+    font-size: 1em;
+
+    color: #262626;
+
+}
+
+/*============*/
+
+/*RETORNO DADOS*/
+#container #retorno{
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    background-color: aquamarine;
+
+}
+
+/*HEADER*/
+#container #retorno #header{
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    background-color: burlywood;
+
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 2em;
+
+}
+
+/*SECTION*/
+#container #retorno #section{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    background-color: coral;
+
+}
+
+/*SECTION - CLIMA*/
+#container #retorno #clima{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    background-color: darkcyan;
+
+}
+
+/*SECTION - CLIMA - TEXTO*/
+#container #retorno #clima p{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    background-color: darkorchid;
+
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 1em;
+
+}
+
+/*SECTION - CLIMA - P IMG*/
+#container #retorno #clima #imgJson{
+    padding: 1%;
+    width: 98%;
+    height: auto;
+    background-color: deepskyblue;
+
+    text-align: center;
+
+}
+
+/*SECTION - CLIMA - TAMANHO IMG*/
+#container #retorno #clima #imgJson img{
+    width: 100%;
+    height: auto;
+    background-color: gold;
+
+}
+
+/*=============================*/
