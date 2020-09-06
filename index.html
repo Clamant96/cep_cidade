@@ -10,25 +10,57 @@
     <div id="container">
         <div id="dados">
             <p>Digite o CPE: </p>
-            <input type="number" id="numero">
-            <input type="button" class="adicionar" value="Verificar" />
+            <input type="text" id="numero" maxlength="9">
 
         </div>
         <div id="retorno">
-            <header id="header">TEMPERATURA DE HOJE</header>
+            <header id="header">Verificador de Endereço</header>
 
             <section id="section">
-                <div id="clima">
-                    <p>PREVISAO DO TEMPO</p>
-                    <p id="imgJson"><img src=""></p>
                 
-                </div>  
+                    
+                    <div id="indetificacao">
+                        <p>Bairro: </p>
+                        <p id="bairro"></p>
+                    
+                    </div> 
+                    
+                    <div id="indetificacao">
+                        <p>CEP: </p>
+                        <p id="cep"></p>
+
+                    </div>
+
+                    <div id="indetificacao">
+                        <p>Localidade: </p>
+                        <p id="localidade"></p>
+
+                    </div>
+
+                    <div id="indetificacao">
+                        <p>Localidade: </p>
+                        <p id="logradouro"></p>
+
+                    </div>
+
+                    <div id="indetificacao">
+                        <p>Localidade: </p>
+                        <p id="uf"></p>
+
+                    </div>
+                
+                 
 
             </section>
 
         </div>
 
     </div>
+
+    <!--<div id="background">
+        <img src="img/background-site-04.jpg" >
+
+    </div>-->
 
     <script src="js/javaScript.js"></script>
 </body>
