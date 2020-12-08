@@ -1,6 +1,8 @@
 # LOCALIZADOR DE ENDEREÇO
 Sistema desenvolvido para receber um CEP e retornar o endereço completo do local informado.
 
+![GitHub Logo](img/cep_cidade_index.png)
+
 ## COMO UTILIZAR
  - Para se realiza a pesquisa do endereco, foi utilizado um banco de dados disponibilizado no link a seguir (http://viacep.com.br/)
 
